@@ -1,4 +1,4 @@
-76London Fog Papers & The Artifact Harness
+London Fog Papers & The Artifact Harness
 
 A complete technical record of constrained generative systems, cryptographic provenance, and the quiet mathematics of making something that belongs to no one in particular.
 
