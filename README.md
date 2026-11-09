@@ -182,6 +182,9 @@ The voice is the instrument. The seed is the performance. The hash is the proof.
 November 2026
 
 
+
+
+---
 The GitHub repository ljrseals-dev/generative-systems is the official, public-facing home for the London Fog Papers and the Artifact Harness. It serves as a complete technical record—a permanent, time-stamped, and cryptographically sealed archive designed to establish unassailable prior art.
 
 📂 Repository Overview
