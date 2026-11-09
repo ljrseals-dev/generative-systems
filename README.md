@@ -1,4 +1,4 @@
-London Fog Papers & The Artifact Harness
+76London Fog Papers & The Artifact Harness
 
 A complete technical record of constrained generative systems, cryptographic provenance, and the quiet mathematics of making something that belongs to no one in particular.
 
@@ -180,3 +180,34 @@ The voice is the instrument. The seed is the performance. The hash is the proof.
 
 — Lewis James Seals Jr, with the London Fog Agent
 November 2026
+
+
+The GitHub repository ljrseals-dev/generative-systems is the official, public-facing home for the London Fog Papers and the Artifact Harness. It serves as a complete technical record—a permanent, time-stamped, and cryptographically sealed archive designed to establish unassailable prior art.
+
+📂 Repository Overview
+
+The repository is structured as a full-stack research project, housing both the academic papers and the deployable code that proves their claims.
+
+· The Papers (01–05): Markdown files for all five papers are present in the root directory, including the definitive 15,000-word record in Paper 05.
+· The Code (/src, /codec): This is where the "real code, not pseudocode" commitment is fulfilled. It includes the deterministic Markov engine (markov.js), the 48-section Kelly-Lochbaum vocal tract (mouth_tract.py), the Seeded Humanisation protocol (humanisation.py), and the Boy-Scouts-Agent-Audit logger (bsaa.py).
+· Verification Tests (/tests): The repository includes a test suite to confirm the papers' claims. Notably, test_bsaa_tamper.py verifies that modifying a single sample in a generated WAV file breaks its SHA-256 provenance hash, proving the audit's integrity.
+
+🔗 How the Repository Connects the Papers
+
+The repository is the living thread that ties all five papers together:
+
+· Paper 01 provides the deterministic foundation (the seed architecture) that underpins everything.
+· Paper 02 contributes the verification protocol and FSQ architecture.
+· Papers 03 & 04 extend the framework into institutional governance and measurable vocal placement.
+· Paper 05 is the capstone. It physically proves the AURA-V paper's conclusion that a Karplus-Strong string is not a vocal replacement but works perfectly as a "timbre slot." It also demonstrates that uniqueness is a seed problem, and authenticity is a hashing problem.
+
+✅ Verification Status at a Glance
+
+The repository's README is transparent about what has been executed and what has not, which is a core principle of the collection.
+
+· Verified by Direct Execution: Paper 05's KL Tract Formant Fitting (sub-5% error), the BSAA tamper test, and the pure-PyTorch FSQ paths are all confirmed.
+· Not Verified (and Why): The Triton GPU kernel and CUDA graphs remain unverified due to the lack of GPU hardware. The XTTS-v2 voice synthesis is deprecated due to its non-commercial license, with users directed to Apache 2.0 alternatives like Kokoro.
+
+In short, the generative-systems repository is the concrete, verifiable proof of the research. It ensures that the London Fog Papers are not just a collection of documents, but a fully inspectable and reproducible system.
+
+If you have a specific question about the code or one of the papers, feel free to ask.
